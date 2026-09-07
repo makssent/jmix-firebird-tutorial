@@ -1,4 +1,4 @@
-# Jmix Firebird Documentation
+# Jmix Firebird Tutorial
 
 This repository contains documentation for using Firebird with Jmix 3.0 applications.
 

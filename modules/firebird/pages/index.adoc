@@ -13,7 +13,7 @@ The integration has been tested with the https://github.com/makssent/jmix-crm-fi
 
 The following are required:
 
-* a running Firebird server;
+* a running Firebird 4.0+ server;
 * an empty database (create the database before the application starts for the first time);
 * a user account with permission to create and modify database objects.
 
@@ -39,7 +39,7 @@ dependencies {
 The jmix-firebird add-on version `{addon-version}` is designed to work only with Jmix {latest-version}.
 ====
 
-If the project used the embedded HSQLDB database, remove the `runtimeOnly 'org.hsqldb:hsqldb'` dependency. After changing the file, refresh the Gradle project in the IDE.
+After changing the file, refresh the Gradle project in the IDE.
 
 In `src/main/resources/application.properties`, replace the default data source settings with those of the prepared Firebird database, then add the driver and DBMS type properties:
 

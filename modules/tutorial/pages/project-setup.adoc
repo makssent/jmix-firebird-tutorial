@@ -157,7 +157,7 @@ The created project is configured to use the embedded HSQLDB database. Before ru
 [[firebird-dependencies]]
 === Dependencies
 
-Open `build.gradle`. In the `dependencies` block, add the add-on and replace the HSQLDB dependency with the Firebird driver:
+Open `build.gradle`. In the `dependencies` block, add the add-on and the Firebird driver:
 
 [source,groovy]
 ----
@@ -180,8 +180,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.vaadin:vaadin-dev'
 
-    // Replaced: use the Firebird JDBC driver instead of HSQLDB
-    // runtimeOnly 'org.hsqldb:hsqldb'
+    runtimeOnly 'org.hsqldb:hsqldb'
+    // Added for Firebird: JDBC driver
     runtimeOnly 'org.firebirdsql.jdbc:jaybird:6.0.5'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {

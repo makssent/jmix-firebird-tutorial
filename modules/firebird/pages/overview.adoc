@@ -2,6 +2,12 @@
 
 This documentation covers using Firebird with Jmix. For detailed information about the platform itself, see the https://docs.jmix.io/jmix/intro.html[official Jmix documentation^].
 
+It includes instructions for connecting Firebird to a Jmix project, integration considerations and limitations, guidance on Liquibase, a step-by-step tutorial, and a real-world application migration example.
+
+Some materials, primarily the tutorial, are based on the official Jmix documentation. They have been adapted and extended to account for using Firebird.
+
+The documentation is intended both for users who are new to Jmix and for developers with an existing Jmix project.
+
 == Getting Started
 
 Choose the scenario that matches your needs.
