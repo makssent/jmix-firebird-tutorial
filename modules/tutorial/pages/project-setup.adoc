@@ -163,7 +163,7 @@ image::project-setup/explore-project-8.png[align="center",width="641"]
 [[firebird-dependencies]]
 === Зависимости
 
-Откройте `build.gradle` и в блоке `dependencies` подключите аддон, а зависимость HSQLDB замените на драйвер Firebird:
+Откройте `build.gradle` и в блоке `dependencies` подключите аддон и драйвер Firebird:
 
 [source,groovy]
 ----
@@ -186,8 +186,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.vaadin:vaadin-dev'
 
-    // Заменено: вместо HSQLDB подключается JDBC-драйвер Firebird
-    // runtimeOnly 'org.hsqldb:hsqldb'
+    runtimeOnly 'org.hsqldb:hsqldb'
+    // Добавлено для Firebird: JDBC-драйвер
     runtimeOnly 'org.firebirdsql.jdbc:jaybird:6.0.5'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {

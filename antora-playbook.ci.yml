@@ -3,7 +3,7 @@ site:
   start_page: jmix-firebird:firebird:overview.adoc
 content:
   sources:
-    - url: https://github.com/makssent/jmix-firebird-docs.git
+    - url: https://github.com/makssent/jmix-firebird-tutorial.git
       branches: release_firebird_3.0_ru
 ui:
   bundle:
