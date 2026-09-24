@@ -197,7 +197,7 @@ dependencies {
 }
 ----
 
-Аддон `jmix-firebird-starter` учит платформу работать с Firebird: реализует интерфейсы Jmix, описывающие диалект СУБД, регистрирует платформу EclipseLink с правильным отображением типов Java на типы Firebird и добавляет changelog Liquibase со значениями свойств, на которые ссылаются скрипты самой платформы. Исходную реализацию можно посмотреть в репозитории https://github.com/makssent/jmix-firebird-addon[makssent/jmix-firebird-addon^]. Jaybird - это JDBC-драйвер с открытым исходным кодом https://github.com/FirebirdSQL/jaybird[FirebirdSQL/jaybird^] для работы с Firebird.
+Аддон `jmix-firebird-starter` учит платформу работать с Firebird: реализует интерфейсы Jmix, описывающие диалект СУБД, регистрирует платформу EclipseLink с правильным отображением типов Java на типы Firebird и добавляет changelog Liquibase со значениями свойств, на которые ссылаются скрипты самой платформы. Подробнее об аддоне можно узнать на странице https://www.jmix.ru/marketplace/firebird-db/[Firebird в Jmix Marketplace^]. Jaybird - это JDBC-драйвер с открытым исходным кодом https://github.com/FirebirdSQL/jaybird[FirebirdSQL/jaybird^] для работы с Firebird.
 
 [NOTE]
 ====

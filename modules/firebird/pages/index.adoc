@@ -1,6 +1,6 @@
 = Подключение Firebird к Jmix-проекту
 
-Firebird не входит в список СУБД, поддерживаемых Jmix из коробки. Для подключения Firebird к приложению нужно использовать аддон https://github.com/makssent/jmix-firebird-addon[jmix-firebird^].
+Firebird поддерживается в Jmix через аддон https://www.jmix.ru/marketplace/firebird-db/[Firebird в Jmix Marketplace^]. Для подключения Firebird к приложению добавьте аддон и настройте подключение к базе данных.
 
 [IMPORTANT]
 ====
