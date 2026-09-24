@@ -191,7 +191,7 @@ dependencies {
 }
 ----
 
-The `jmix-firebird-starter` add-on enables the platform to work with Firebird. It implements the Jmix interfaces that describe the database dialect, registers an EclipseLink platform with the correct mapping of Java types to Firebird types, and adds a Liquibase changelog containing property values referenced by the platform's own scripts. You can view the source implementation in the https://github.com/makssent/jmix-firebird-addon[makssent/jmix-firebird-addon^] repository. Jaybird is the open-source https://github.com/FirebirdSQL/jaybird[FirebirdSQL/jaybird^] JDBC driver for Firebird.
+The `jmix-firebird-starter` add-on enables the platform to work with Firebird. It implements the Jmix interfaces that describe the database dialect, registers an EclipseLink platform with the correct mapping of Java types to Firebird types, and adds a Liquibase changelog containing property values referenced by the platform's own scripts. You can learn more about the add-on on the https://www.jmix.io/marketplace/firebird-db/[Firebird page in Jmix Marketplace^]. Jaybird is the open-source https://github.com/FirebirdSQL/jaybird[FirebirdSQL/jaybird^] JDBC driver for Firebird.
 
 [NOTE]
 ====

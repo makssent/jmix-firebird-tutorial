@@ -3,11 +3,11 @@
 This section summarizes known limitations and considerations for using Firebird with Jmix that were identified in practice.
 
 [[unofficial-support]]
-== Unofficial Support
+== Support Through an Add-on
 
-Firebird is not among the DBMSs officially supported by Jmix. Support for Firebird as a primary database was proposed directly for Jmix in https://github.com/jmix-framework/jmix/pull/5532[PR #5532^], but the Jmix team did not accept the PR because of the maintenance cost of supporting another DBMS and suggested implementing the support as an add-on.
+Firebird is supported in Jmix through the https://www.jmix.io/marketplace/firebird-db/[Firebird add-on in Jmix Marketplace^]. The add-on enables applications to use Firebird as their primary database.
 
-Therefore, the integration is implemented through the third-party `jmix-firebird-addon`, which is maintained separately from the core Jmix team. The add-on enables Jmix to work with Firebird, but it does not have the same maintenance guarantees as built-in DBMS support. Indefinite maintenance of the add-on and the absence of new compatibility issues in future versions of Jmix and its libraries cannot be guaranteed.
+The `jmix-firebird-addon` is maintained separately from the core Jmix platform.
 
 [[changelog-generation]]
 == Automatic Liquibase Changelog Generation

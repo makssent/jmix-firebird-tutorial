@@ -1,6 +1,6 @@
 = Connecting Firebird to a Jmix Project
 
-Firebird is not included in the list of DBMSs supported by Jmix out of the box. To connect an application to Firebird, use the https://github.com/makssent/jmix-firebird-addon[jmix-firebird^] add-on.
+Firebird is supported in Jmix through the https://www.jmix.io/marketplace/firebird-db/[Firebird add-on in Jmix Marketplace^]. To connect an application to Firebird, add the add-on and configure the database connection.
 
 [IMPORTANT]
 ====
